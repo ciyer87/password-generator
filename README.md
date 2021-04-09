@@ -28,4 +28,4 @@ Unique password will be generated and displayed to the user as shown in the scre
 
 # Deployed application URL
 
-* 
+*  https://ciyer87.github.io/password-generator/
