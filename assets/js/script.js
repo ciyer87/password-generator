@@ -1,12 +1,8 @@
 // Assignment code here
 
-//declare global variables
-passwordCharacters = "";
-newPassword = "";
-charLength = "";
-
 //function to get length of password from users.  If user entered <8 or >128 or no password, they will not be able to proceed.
 function getLength() {
+  charLength = "";
   var charLength = parseInt(window.prompt("Please enter a length of at least 8 characters and no more than 128 characters"))
   while (charLength < 8 || charLength > 128 || charLength === "" || isNaN(parseInt(charLength))) {
     var charLength = parseInt(window.prompt("Please enter a length of at least 8 characters and no more than 128 characters"));
@@ -17,6 +13,8 @@ function getLength() {
 //generate password function to get criteria and calculate password
 
 function generatePassword() {
+  passwordCharacters = "";
+  newPassword = "";
   var charLength = getLength();
   var lowerCase = window.confirm("Would you like to include lowercase in password?");
   var upperCase = window.confirm("Would you like to include uppercase in password?");
@@ -53,6 +51,7 @@ function generatePassword() {
 }
 
 // Get references to the #generate element
+
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
