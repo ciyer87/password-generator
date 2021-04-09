@@ -17,3 +17,12 @@ User then enters the criteria of the password.  One or more criteria needs to be
 
 Unique password will be generated and displayed to the user as shown in the screenshot below.
 
+# Screenshot
+
+
+
+
+# Technology
+
+* JS (in addition to the HTML and CSS that was provided).
+
