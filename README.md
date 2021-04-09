@@ -19,10 +19,13 @@ Unique password will be generated and displayed to the user as shown in the scre
 
 # Screenshot
 
-
+![Password Generator](assets/images/password_generator.png)
 
 
 # Technology
 
 * JS (in addition to the HTML and CSS that was provided).
 
+# Deployed application URL
+
+* 
